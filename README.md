@@ -27,7 +27,7 @@ docker run -p 7688:7688 -d --name go-qrcode-api go-qrcode-api
 
 - 带水印 http://127.0.0.1:7688/qrcode?t=https://github.com&l=https://avatars.githubusercontent.com/u/9919&w=Github.com
 - 水印 + logo + base64内容(可在text内容比较复杂时使用)  
-  http://127.0.0.1:7688/qrcode?t=aHR0cHM6Ly9naXRodWIuY29tL2ZhbHNlVXQwcGlhL2dvLXFyY29kZS1hcGk=&l=https://avatars.githubusercontent.com/u/9919&w=github.com/fa1seUt0pia&e=1
+  http://127.0.0.1:7688/qrcode?t=aHR0cHM6Ly9naXRodWIuY29tL2ZhMXNldXQwcGlhL2dvLXFyY29kZS1hcGk=&l=https://avatars.githubusercontent.com/u/9919&w=github.com/fa1seUt0pia&e=1
 
 ![带水印](https://raw.githubusercontent.com/fa1seut0pia/go-qrcode-api/refs/heads/master/data/logo-watermark.png) ![带logo](https://raw.githubusercontent.com/fa1seut0pia/go-qrcode-api/refs/heads/master/data/base64-logo-watermark.png)
 
